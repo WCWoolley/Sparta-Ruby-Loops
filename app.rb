@@ -2,9 +2,14 @@
 
 i = 0
 
-# loop do
+loop do
   # Code to run infinitely
-# end
+  puts i
+  i += 1
+  if i > 5
+    break
+  end
+end
 
 # WHILE DO
 # while i < 10 do
@@ -66,12 +71,12 @@ arr1 = ["please","print","some","words"]
 # puts new_array
 
 # REDUCE
-some_numbers = [2,53,245,234,21]
+# some_numbers = [2,53,245,234,21]
 
 # sum = some_numbers.reduce 0 do |total, number|
 #   total + number
 # end
 
-quick_sum = some_numbers.reduce 0, :+
+# quick_sum = some_numbers.reduce 0, :+
 
-puts quick_sum
+# puts quick_sum
